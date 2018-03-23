@@ -53,17 +53,6 @@
         android:text="Log In"
         android:textColor="#FFF" />
 
-    <Button
-        android:id="@+id/button_loginadmin"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_login"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="#7f7fff"
-        android:onClick="vn"
-        android:text="Log In As Admin"
-        android:textColor="#FFF" />
 
     <TextView
         android:id="@+id/text3"
