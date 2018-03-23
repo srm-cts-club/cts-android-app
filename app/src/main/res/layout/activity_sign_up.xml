@@ -26,8 +26,10 @@
         android:id="@+id/checkAdmin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@id/checkBox"
-        android:text="Check"/>
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@id/checkBox"
+        android:layout_alignBaseline="@+id/checkBox"
+        android:text="Check for Admin Sign Up"/>
 
     <EditText
         android:id="@+id/name"
@@ -95,6 +97,20 @@
         android:inputType="textPassword"
         android:textColor="#A9A9A9"
         android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/adminKey"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pass2"
+        android:layout_below="@+id/pass2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Admin Key"
+        android:inputType="textPassword"
+        android:textColor="#A9A9A9"
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/button_login"
