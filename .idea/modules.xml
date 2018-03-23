@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Check2.iml" filepath="$PROJECT_DIR$/Check2.iml" />
+      <module fileurl="file://C:\Users\LENOVO\AndroidStudioProjects\cts-android-app\Check2.iml" filepath="C:\Users\LENOVO\AndroidStudioProjects\cts-android-app\Check2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\LENOVO\AndroidStudioProjects\cts-android-app\app\app.iml" filepath="C:\Users\LENOVO\AndroidStudioProjects\cts-android-app\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cts-android-app.iml" filepath="$PROJECT_DIR$/cts-android-app.iml" />
     </modules>
   </component>
 </project>
